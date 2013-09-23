@@ -13,6 +13,8 @@ Features
 5)	I will try to implement an importance measure based on 3 categories.
 6)	A form for emergency expense calculations. It will be input numbers only. No need to submit. And the resulting output will be a change in text styling of the inputted number. Green for possible and red for not at all.
 a.	This will use Ajax to calculate the inputted number against the actual balance aka the cash cushion or buffer.
+7)  Take anual bills and break them up into 12 month fees.
+8) deposit reports. within the bill pay report have a breakout that tells you how much to move into savings and or other accounts for safe keeping.
 
 Tables and fields
 ----------------------
@@ -44,10 +46,17 @@ b.	As of when
 c.	Credit transaction ID
 d.	Debit transaction ID
 e.	Matching admitted balance ID
+f.  Account ID.
 6)	Admitted Balance (this will be the balance shown to the user minus the potential buffer created by the rounding process of the credit and debit transactions.)
 a.	Balance after last transaction
 b.	As of when
 c.	Credit transaction ID
 d.	Debit transaction ID
 e.	Matching Actual registrar ID
-7)	A systems log that tracks all db transactions.
+f.  account ID
+7)  Accounts (checking / credit)
+a.  name
+b.  Type
+c.  balance
+d.  fees
+8)	A systems log that tracks all db transactions.
