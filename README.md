@@ -19,44 +19,44 @@ a.	This will use Ajax to calculate the inputted number against the actual balanc
 Tables and fields
 ----------------------
 1)	Venders -
-a.	Name
-b.	Account number for note in check (maybe. I may want to keep this more general than detailed on every aspect.)
-c.	Due date
-d.	Late fees
-e.	Notes
-f.	Importance
+    a.	Name
+    b.	Account number for note in check (maybe. I may want to keep this more general than detailed on every aspect.)
+    c.	Due date
+    d.	Late fees
+    e.	Notes
+    f.	Importance
 2)	Accounts receivable - 
-a.	Who
-b.	When
-c.	Interval
-d.	How much
+    a.	Who
+    b.	When
+    c.	Interval
+    d.	How much
 3)	Pay plan aka planed budget
-a.	Who will be paid
-b.	How much
-c.	When
-d.	Late fees if any
+    a.	Who will be paid
+    b.	How much
+    c.	When
+    d.	Late fees if any
 4)	Practical budget (what really happened.) -
-a.	Who was paid
-b.	How much
-c.	When
-d.	Late fees if any
+    a.	Who was paid
+    b.	How much
+    c.	When
+    d.	Late fees if any
 5)	Actual account registrar
-a.	Balance after last transaction
-b.	As of when
-c.	Credit transaction ID
-d.	Debit transaction ID
-e.	Matching admitted balance ID
-f.  Account ID.
+    a.	Balance after last transaction
+    b.	As of when
+    c.	Credit transaction ID
+    d.	Debit transaction ID
+    e.	Matching admitted balance ID
+    f.  Account ID.
 6)	Admitted Balance (this will be the balance shown to the user minus the potential buffer created by the rounding process of the credit and debit transactions.)
-a.	Balance after last transaction
-b.	As of when
-c.	Credit transaction ID
-d.	Debit transaction ID
-e.	Matching Actual registrar ID
-f.  account ID
+    a.	Balance after last transaction
+    b.	As of when
+    c.	Credit transaction ID
+    d.	Debit transaction ID
+    e.	Matching Actual registrar ID
+    f.  account ID
 7)  Accounts (checking / credit)
-a.  name
-b.  Type
-c.  balance
-d.  fees
+    a.  name
+    b.  Type
+    c.  balance
+    d.  fees
 8)	A systems log that tracks all db transactions.
